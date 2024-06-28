@@ -1,0 +1,105 @@
+body {
+    width: 100vw;
+    height: 95vh;
+    background-color: white;
+}
+section {
+    width: 95%;
+    height: 96%;
+    background-color: red;
+    cursor: url(images2/case/cursor.png), auto;
+    display: flex;
+    position: relative;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    margin-top: calc((100vw - 95%)/2);
+    overflow: hidden;
+}
+div {
+    width: 40px;
+    height: 40px;
+    flex-direction: row;
+}
+/* img {
+    width: 700%;
+} */
+.D > img {
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 20px;
+    left: 440px;
+    z-index: 2;
+}
+.E1 > img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 640px;
+    z-index: 1;
+}
+.C > img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 220px;
+    left: 340px;
+    z-index: 1;
+}
+.R > img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    z-index: 3;
+}
+.E2 > img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 230px;
+    left: 680px;
+    z-index: 2;
+}
+.A > img {
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    top: 400px;
+    left: 380px;
+    z-index: 2;
+}
+.T > img {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 250px;
+    left: 430px;
+    z-index: 2;
+}
+.E3 > img {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 420px;
+    left: 690px;
+    z-index: 2;
+}
+button {
+    width: 470px;
+    height: 200px;
+    position: absolute;
+    top: calc(100vh/2 - 120px);
+    left: calc(100vw/2 - 280px);
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 4;
+    font-family: 'Mont';
+    border: none;
+}
+button > img {
+    width: 450px;
+    padding: 10px;
+}
